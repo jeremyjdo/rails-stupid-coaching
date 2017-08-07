@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+
+@import "components/chat";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+.padded {
+  padding: 50px 0;
+}

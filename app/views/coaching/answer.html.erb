@@ -1,0 +1,21 @@
+
+
+<div class="container padded">
+  <ul class="ChatLog">
+    <li class="ChatLog__entry ChatLog__entry_mine">
+      <img class="ChatLog__avatar" src="https://kitt.lewagon.com/placeholder/users/jeremyjdo"/>
+      <p class="ChatLog__message">
+        <%= @question %>
+      </p>
+    </li>
+    <li class="ChatLog__entry">
+      <img class="ChatLog__avatar" src="//placekitten.com/g/50/50" />
+      <p class="ChatLog__message">
+        <%= @answer %>
+      </p>
+    </li>
+  </ul>
+</div>
+<div class="container text-center padded">
+  <%= link_to "ask again", ask_path, :class=>"btn btn-primary" %>
+</div>
